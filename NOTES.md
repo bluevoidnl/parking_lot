@@ -15,6 +15,10 @@
 
 ## 🍅 Pomodoro 2
 
-1. ⚠ Make a walking route test at the ground floor from index 8 it should be null. 
-2. ⚠ Make a walking route test at the ground floor from index 7. 
-3. ⚠ Make a walking route test at the ground floor from index 0. 
+1. ✅ Make a walking route test at the ground floor from index 8 it should be null. 
+2. ✅ Make a walking route test at the ground floor from index 7. 
+
+
+## 🍅 Pomodoro 3
+1. 🚧  Make a walking route test at the ground floor from index 0. 
+2. ⚠ Make a walking route test at the first floor from index 1. 
