@@ -21,4 +21,11 @@
 
 ## 🍅 Pomodoro 3
 1. ✅ Make a walking route test at the ground floor from index 0. 
-2. 🚧 Make a walking route test at the first floor from index 1. 
+
+## 🍅 Pomodoro 4
+1. ✅ Make a walking route test at the first floor from index 1. 
+
+## 🍅 Pomodoro 5
+1. ✅ Simplify output, return String.
+2. 🚧 Make a walking route test at the second floor from index 2.  
+

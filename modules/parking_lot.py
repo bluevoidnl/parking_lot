@@ -8,17 +8,19 @@ class Garage:
         if position > self.levelLength:
             return None
         
-        instructions = []
+        instructions = "" 
 
-        steps_to_take = position
-        if level > 0:
-            instructions.append("3 left")
-            instructions.append("1 down")
-            instructions.append("5 right")
+        steps_to_take = self.levelLength - position
         # for i in range(level, -1, -1):
+
+        if level > 1:
+            instructions += "1r, 1d, 1r, 1d, 3r"
+        elif level > 0:
+            instructions += "3r, 1d, 3r"
+       
         elif steps_to_take == 0: 
-            instructions.append("You are on the exit")
+            instructions += "You are at the exit"
         else:    
-            instructions.append(str(position) + " left")
+            instructions += str(steps_to_take) + "r"
         
         return instructions
