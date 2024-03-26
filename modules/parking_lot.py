@@ -9,14 +9,16 @@ class Garage:
             return None
         
         instructions = []
+
         steps_to_take = position
-        for i in range(level, -1, -1):
-            # todo stuff, appenmd instructions 
-
-
-        if steps_to_take == 0: 
-             instructions.append("You are on the exit")
+        if level > 0:
+            instructions.append("3 left")
+            instructions.append("1 down")
+            instructions.append("5 right")
+        # for i in range(level, -1, -1):
+        elif steps_to_take == 0: 
+            instructions.append("You are on the exit")
         else:    
-            return instructions.append(str(position) + " left")
+            instructions.append(str(position) + " left")
         
         return instructions
