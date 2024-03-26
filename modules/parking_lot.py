@@ -8,11 +8,11 @@ class Garage:
         if position > self.levelLength:
             return None
         
-        instructions =[]
+        instructions = []
         steps_to_take = position
         for i in range(level, -1, -1):
             # todo stuff, appenmd instructions 
-    
+
 
         if steps_to_take == 0: 
              instructions.append("You are on the exit")

@@ -20,5 +20,5 @@
 
 
 ## 🍅 Pomodoro 3
-1. 🚧  Make a walking route test at the ground floor from index 0. 
-2. ⚠ Make a walking route test at the first floor from index 1. 
+1. ✅ Make a walking route test at the ground floor from index 0. 
+2. 🚧 Make a walking route test at the first floor from index 1. 
